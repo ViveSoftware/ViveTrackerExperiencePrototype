@@ -1,4 +1,4 @@
-﻿# ViveShare Prototypes License
+﻿# Vive Tracker Experience Prototypes -- License
 Copyright (c) 2017 HTC Corporation. All Rights Reserved.
 
 This document describes a contract between you and HTC Corporation and 

@@ -1,30 +1,50 @@
-# ViveShare Prototypes
+# Vive Tracker Experience Prototypes
 Copyright (c) 2017, HTC Corporation. All rights reserved.
 
 ## Introduction:
 
-- In this project, we provide serveral prototypes demonstrating "ViveShare" experience, which is a kind of shared experience between Vive Player and co-located audience. The audience can be mere viewers, or can actively collaborate/interact with Vive player.
+- In this project, we provide serveral prototypes demonstrating different 
+  experiences using Vive Trackers.
 
+- Some experiences in this project provide a "shared" experience between Vive 
+  Player and co-located audience, which can transform passive audience into active
+  participants of VR universe.
 
-- We encourage developers to create such "shared" experience, which can transform passive audience into active participants of VR universe.
+- Experience list:
+
+  1. Model Viewer: "Shared" experience. 
+     Vive Player control (drag, throw) a 3D model using Vive controllers, and the 
+	 audience can view the 3D model through smartphone screen with tracker mounted.
+
+  2. Simple Shooter: "Shared" experience.
+     Each audience hold a smartphone with tracker mounted. In limited time, the Vive
+	 player and mobile players shoot each other with virtual bullet to gain score.
 
 ## Hardware requirements:
 
-For a "ViveShare" experience, you need the following hardware:
+To run the experiences in this project, you need the following hardware:
 
  - Vive
- - Smartphone (in these prototypes we support Android 6.0 or above)
- - One Vive tracker per smartphone 
-   (for ver 1.0.0, we only support 1 mobile player; multiplayer support is planned)
- - Wireless LAN environment for your PC and smartphones
+ - at least 1 Vive Tracker
+
+To run the shared experiences, you need these addutional hardware:
+ 
+ - Smartphone (Android 6.0 or above)
+ - One Vive tracker per smartphone; trackers should be mounted on smartphones
+ - Wireless LAN environment for PC and smartphones
 
 ## How to run pre-build examples
 
-1. Bind trackers to certain TrackerRole (see Vive Input Utility documentation)
-2. Install the APK file to your smartphones
-3. Make sure all smartphones can connect to the PC hosting Vive via Wireless LAN
+For non-shared experience, just run the executable.
+
+For shared experiences, follow these steps:
+1. Install the APK files to your smartphones
+2. Make sure all smartphones can connect to the PC hosting Vive via Wireless LAN
    (you can get diagnostic tools from Google Play store)
-4. Enjoy the ViveShare experience!
+3. Run the executable on PC, and enjoy the experience!
+
+Optionally, you can bind the trackers to certain TrackerRole, so the the tracker assigned as 1st will always
+be marked as tracker1 (see Vive Input Utility documentation for more details).
 
 ## Software Requirements:
 
