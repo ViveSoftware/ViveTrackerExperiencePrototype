@@ -12,7 +12,7 @@ namespace HTC.UnityPlugin.ViveShare
         protected ViveShare_SyncIdentity identity;
 
         // sync message send interval
-        public float sendInterval = 0.011f;
+        public float sendInterval = 0.1f;
         private float lastSendTime = 0.0f;
 
         public virtual void OnEnable()
