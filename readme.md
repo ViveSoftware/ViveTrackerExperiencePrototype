@@ -35,6 +35,8 @@ To run the shared experiences, you need these addutional hardware:
 
 ## How to run pre-build examples
 
+You can download pre-build examples from the release tab.
+
 For non-shared experience, just run the executable.
 
 For shared experiences, follow these steps:
@@ -44,7 +46,7 @@ For shared experiences, follow these steps:
 3. Run the executable on PC, and enjoy the experience!
 
 Optionally, you can bind the trackers to certain TrackerRole, so the the tracker assigned as 1st will always
-be marked as tracker1 (see Vive Input Utility documentation for more details).
+be marked as tracker1 (see the tutorail in the pre-build example folder).
 
 ## Software Requirements:
 
