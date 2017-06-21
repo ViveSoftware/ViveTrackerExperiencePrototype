@@ -27,7 +27,7 @@ To run the experiences in this project, you need the following hardware:
  - Vive
  - at least 1 Vive Tracker
 
-To run the shared experiences, you need these addutional hardware:
+To run the shared experiences, you need these additional hardware:
  
  - Smartphone (Android 6.0 or above)
  - One Vive tracker per smartphone; trackers should be mounted on smartphones
@@ -46,7 +46,7 @@ For shared experiences, follow these steps:
 3. Run the executable on PC, and enjoy the experience!
 
 Optionally, you can bind the trackers to certain TrackerRole, so the the tracker assigned as 1st will always
-be marked as tracker1 (see the tutorail in the pre-build example folder).
+be marked as tracker1 (see the tutorial in the pre-build example folder).
 
 ## Software Requirements:
 
